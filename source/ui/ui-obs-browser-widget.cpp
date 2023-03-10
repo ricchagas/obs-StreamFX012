@@ -7,7 +7,10 @@
 
 #include "warning-disable.hpp"
 #include <mutex>
-#include <../plugins/obs-browser/panel/browser-panel.hpp>
+
+// Not ideal, but better than nothing.
+#include "../third-party/obs-studio/plugins/obs-browser/panel/browser-panel.hpp"
+
 #ifdef D_PLATFORM_LINUX
 #include <errno.h>
 #include <stdlib.h>
