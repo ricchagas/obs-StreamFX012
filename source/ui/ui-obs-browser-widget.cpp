@@ -7,6 +7,7 @@
 
 #include "warning-disable.hpp"
 #include <mutex>
+#include <stdexcept>
 
 // Not ideal, but better than nothing.
 #include "../third-party/obs-studio/plugins/obs-browser/panel/browser-panel.hpp"
