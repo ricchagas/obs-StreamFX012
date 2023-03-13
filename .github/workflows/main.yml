@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        runner: [ "windows-2022", "macos-12", "ubuntu-22.04", "ubuntu-20.04" ]
+        runner: [  "macos-12", "ubuntu-20.04" ]
         qt: [ 5, 6 ]
         generator: [ "MSVC", "GCC", "Clang" ]
         exclude:
